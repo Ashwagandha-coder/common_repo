@@ -11,4 +11,8 @@ int then() {
     return 0;
 }
 
+bool make() {
+    return true;
+}
+
 
