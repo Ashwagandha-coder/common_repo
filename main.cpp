@@ -15,4 +15,8 @@ bool make() {
     return true;
 }
 
+bool doHast() {
+    return false;
+}
+
 
