@@ -72,17 +72,17 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_abstract_repo: phony || CMakeFiles/abstract_repo.dir
 
-build CMakeFiles/abstract_repo.dir/main.cpp.o: CXX_COMPILER__abstract_repo_Debug /Users/20962184/CLionProjects/abstract_repo/main.cpp || cmake_object_order_depends_target_abstract_repo
-  DEP_FILE = CMakeFiles/abstract_repo.dir/main.cpp.o.d
+build CMakeFiles/abstract_repo.dir/common/main.cpp.o: CXX_COMPILER__abstract_repo_Debug /Users/20962184/CLionProjects/abstract_repo/common/main.cpp || cmake_object_order_depends_target_abstract_repo
+  DEP_FILE = CMakeFiles/abstract_repo.dir/common/main.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -std=gnu++2a
   OBJECT_DIR = CMakeFiles/abstract_repo.dir
-  OBJECT_FILE_DIR = CMakeFiles/abstract_repo.dir
+  OBJECT_FILE_DIR = CMakeFiles/abstract_repo.dir/common
 
-build CMakeFiles/abstract_repo.dir/test.cpp.o: CXX_COMPILER__abstract_repo_Debug /Users/20962184/CLionProjects/abstract_repo/test.cpp || cmake_object_order_depends_target_abstract_repo
-  DEP_FILE = CMakeFiles/abstract_repo.dir/test.cpp.o.d
+build CMakeFiles/abstract_repo.dir/common/test.cpp.o: CXX_COMPILER__abstract_repo_Debug /Users/20962184/CLionProjects/abstract_repo/common/test.cpp || cmake_object_order_depends_target_abstract_repo
+  DEP_FILE = CMakeFiles/abstract_repo.dir/common/test.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -std=gnu++2a
   OBJECT_DIR = CMakeFiles/abstract_repo.dir
-  OBJECT_FILE_DIR = CMakeFiles/abstract_repo.dir
+  OBJECT_FILE_DIR = CMakeFiles/abstract_repo.dir/common
 
 build CMakeFiles/abstract_repo.dir/algo/valid_parentheses/valid_parentheses.cpp.o: CXX_COMPILER__abstract_repo_Debug /Users/20962184/CLionProjects/abstract_repo/algo/valid_parentheses/valid_parentheses.cpp || cmake_object_order_depends_target_abstract_repo
   DEP_FILE = CMakeFiles/abstract_repo.dir/algo/valid_parentheses/valid_parentheses.cpp.o.d
@@ -104,7 +104,7 @@ build CMakeFiles/abstract_repo.dir/algo/valid_parentheses/alt/alt.cpp.o: CXX_COM
 #############################################
 # Link the executable abstract_repo
 
-build abstract_repo: CXX_EXECUTABLE_LINKER__abstract_repo_Debug CMakeFiles/abstract_repo.dir/main.cpp.o CMakeFiles/abstract_repo.dir/test.cpp.o CMakeFiles/abstract_repo.dir/algo/valid_parentheses/valid_parentheses.cpp.o CMakeFiles/abstract_repo.dir/algo/valid_parentheses/alt/alt.cpp.o
+build abstract_repo: CXX_EXECUTABLE_LINKER__abstract_repo_Debug CMakeFiles/abstract_repo.dir/common/main.cpp.o CMakeFiles/abstract_repo.dir/common/test.cpp.o CMakeFiles/abstract_repo.dir/algo/valid_parentheses/valid_parentheses.cpp.o CMakeFiles/abstract_repo.dir/algo/valid_parentheses/alt/alt.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
   OBJECT_DIR = CMakeFiles/abstract_repo.dir
   POST_BUILD = :
