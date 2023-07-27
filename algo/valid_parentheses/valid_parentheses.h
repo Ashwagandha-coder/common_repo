@@ -1,6 +1,4 @@
-//
-// Created by Мухамадиев Данил Дамирович on 27.07.2023.
-//
+
 
 #ifndef ABSTRACT_REPO_VALID_PARENTHESES_H
 #define ABSTRACT_REPO_VALID_PARENTHESES_H
