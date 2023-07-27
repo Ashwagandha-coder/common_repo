@@ -3,4 +3,4 @@ project(abstract_repo)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(abstract_repo main.cpp test.cpp)
+add_executable(abstract_repo main.cpp test.cpp algo/valid_parentheses.cpp algo/valid_parentheses.h)
