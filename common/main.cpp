@@ -7,16 +7,5 @@ int main() {
     return 0;
 }
 
-int then() {
-    return 0;
-}
-
-bool make() {
-    return true;
-}
-
-bool doHast() {
-    return false;
-}
 
 
