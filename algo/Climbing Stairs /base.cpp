@@ -16,9 +16,8 @@ public:
 };
 
 
-
 int main() {
     Solution solution;
 
-    std::cout << solution.climbStairs(5);
+    cout << solution.climbStairs(5);
 }
