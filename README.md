@@ -4,7 +4,7 @@
 
 ## Goal
 
-
+Code in c++. Repo will contains algo, jdk - classes and func writing in c++, android native, etc..
 
 ## Status
 
