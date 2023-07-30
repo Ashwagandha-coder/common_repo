@@ -4,8 +4,7 @@
 
 ## Goal
 
-Main goal this repo is write code java to kotlin.
-Only part code for learn android, jdk, libs framework
+
 
 ## Status
 
