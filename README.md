@@ -14,6 +14,10 @@ development.....
 
 ### Theme
 
+- Algorithm
+- JDK
+- Android Native
+
 
 
 ## Graphs
