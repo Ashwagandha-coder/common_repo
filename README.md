@@ -22,7 +22,9 @@ development.....
 
 ## Graphs
 
-
+Will theme:
+- aosp android
+- system linux developmentk
 
 ## Lang
 C++
