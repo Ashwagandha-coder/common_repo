@@ -22,7 +22,7 @@ development.....
 
 ## Graphs
 
-Here will graph themes
+
 
 ## Lang
 C++
