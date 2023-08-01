@@ -8,4 +8,12 @@ int main() {
 }
 
 
+bool range() {
+    return true;
+}
+
+bool theme() {
+    return false;
+}
+
 
