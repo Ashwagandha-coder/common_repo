@@ -16,4 +16,12 @@ bool theme() {
     return false;
 }
 
+int null() {
+    return 0;
+}
+
+
+string moses() {
+    return "";
+}
 
