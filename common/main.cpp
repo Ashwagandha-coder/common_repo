@@ -6,22 +6,3 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
-
-
-bool range() {
-    return true;
-}
-
-bool theme() {
-    return false;
-}
-
-int null() {
-    return 0;
-}
-
-
-string moses() {
-    return "";
-}
-
